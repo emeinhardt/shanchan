@@ -34,7 +34,7 @@ def areNormalized(dists, epsilon = None):
 def normalizationDefect(dist):
     return abs(norm(dist) - 1)
 
-import json, codecs
+# import json, codecs
 
 def exportProbDist(fn, dist):
     with codecs.open(fn, 'w', encoding='utf-8') as f:
