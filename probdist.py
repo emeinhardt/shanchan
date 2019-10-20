@@ -408,6 +408,9 @@ def H(space, prior = None):
         return s
 
 def pDKL(event, p, q):
+    '''
+    Pointwise KL diveregence from p to q at event.
+    '''
     return log(P(event, p)) - log(P(event, q))
 #     return log(p[event] / q[event])
 
