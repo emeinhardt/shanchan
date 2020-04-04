@@ -1,0 +1,13 @@
+{
+    "matrix fp": "CM_AmE_destressed_aligned_w_LTR_NXT_swbd_destressed_pseudocount0.01_lambda0.015625/LTR_NXT_swbd_destressed_aligned_CM_filtered_LM_filtered_pX0X1X2.npy",
+    "matrix shape": [
+        6737
+    ],
+    "Produced in step": "Step 4a",
+    "Produced in notebook": "Generate triphone lexicon distribution from channel model",
+    "W": {
+        "from fp": "CM_AmE_destressed_aligned_w_LTR_NXT_swbd_destressed_pseudocount0.01_lambda0.015625/LTR_NXT_swbd_destressed_aligned_CM_filtered_LM_filtered_pY1X0X1X2.json",
+        "changes": "only includes triphones containing no word edge symbols; subsequently padded with edge symbols and then sorted.",
+        "size": 6737
+    }
+}
